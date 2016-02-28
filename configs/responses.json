@@ -62,5 +62,11 @@
 	"^dishwasher$" : ["no","YES"],
 	"^(im)?gladtoseenothinghaschangedaroundhere$" : ["Two worlds, one family!"],
 	"^fuckthisshit$" : ["**TALL MEN WALK THROUGH THE SKY**"],
-	"^heresabird" : ["There's no birds."]
+	"^heresabird" : ["There's no birds."],
+	"^itis" : ["[HE'S OUT, BOYS, HE'S OUT, BAIL!]"],
+	"^sfxlevel900" : ["SCRIPT LEVEL 0"],
+	"^you.reahuman$" : ["And now I'm gonna blow my **FUCKING** brains out!"],
+	"^youlooklikeasnake$" : [["**YE*SSSSSSSSSSSSSS***", "snake.png"]],
+	"^finalfantasy13" : ["Can't wait to play this awesome gaaaameee!"],
+	"^hello.you.reongamingguiltypleasures$" : ["FUCK YOU"]
 }
