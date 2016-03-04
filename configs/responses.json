@@ -1,6 +1,6 @@
 {
-	"^(@sonic_hedgehog|sonic*twitter)$" : ["Also known as **THE BEST TWITTER ACCOUNT EVER**"],
-	"^segata........$" : ["OUR LORD AND SAVIOR"],
-	"^nintendonerd.$" : ["(Hitler)"],
+	"^(sonichedgehog|sonic*twitter)$" : ["Also known as **THE BEST TWITTER ACCOUNT EVER**"],
+	"^segata(sanshiro)?$" : ["OUR LORD AND SAVIOR"],
+	"^nintendonerds?$" : ["(Hitler)"],
 	"^nintendo$" : ["(Schutzstaffel)"]
 }
