@@ -120,16 +120,7 @@ def on_message(message):
                 break
 
 hilarious_snark = [
-    'Oh, I get it now I need to eat a pizza because I\'m having *a fuckin\' panic attack* ***I gotta stress eat.***',
-    'SURPRISE! IT\'S HELL ON EARTH.',
-    '***AM I DEAD YET***',
-    'I have **several** questions.',
-    'I\'M GOIN\'. **I\'M GOIN\'!**',
-    'There\'s a lot to see in this life. Not wasting it here.',
-    'I have fallen... and I choose NOT to get up!',
-    'CONGRATULATIONS!\nYOU HAVE FOUND THE SECRET LEVEL SELECT SCREEN!',
-    'This presents a problem.',
-    'I AM BROKEN SO VERY VERY BROKEN'
+    'NOT EVEN SEGATA CAN HELP ME NOW'
 ]
 
 @client.async_event
