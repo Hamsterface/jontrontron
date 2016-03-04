@@ -1,0 +1,10 @@
+{
+    "email" : "",
+    "password" : "",
+    "owner_id" : "",
+	"channels" : [
+		"111111111111111111",
+		"222222222222222222"
+	],
+	"quit_command" : "^regexHere$"
+}
