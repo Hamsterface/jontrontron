@@ -6,7 +6,7 @@
 
 #Download
 
-[Download the latest version of JonTronTron and place it in a folder by itself.](https://github.com/Hamsterface/jontrontron/archive/master.zip)
+[Download the latest version of ~~JonTronTron~~ DreamcastBot and place it in a folder by itself.](https://github.com/lilpea/dreamcastbot/archive/master.zip)
 
 #Configuration
 
