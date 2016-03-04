@@ -31,4 +31,4 @@ Edit config.json as such, filling in any necessary information:
 
 Run `main.py` in Python 3.
 
-Congratulations, you have a JonTronTron.
+Congratulations, you have a ~~JonTronTron~~ DreamcastBot.
