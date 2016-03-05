@@ -3,5 +3,6 @@
 	"^segata(sanshiro)?$" : ["OUR LORD AND SAVIOR"],
 	"^nintendonerds?$" : ["(Hitler)"],
 	"^nintendo$" : ["(Schutzstaffel)"],
-	"^noleach$" : ["(Unleashed)"]
+	"^noleach$" : ["(Unleashed)"],
+	"(sony|(sony)?playstation)" : ["(North korea)"]
 }
