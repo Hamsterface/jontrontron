@@ -4,5 +4,6 @@
 	"^nintendonerds?$" : ["(Hitler)"],
 	"^nintendo$" : ["(Schutzstaffel)"],
 	"^noleach$" : ["(Unleashed)"],
-	"(sony|(sony)?playstation)" : ["(North korea)"]
+	"(sony|(sony)?playstation)" : ["(North korea)"],
+	"showmeyourgit(hub)?page" : ["https://www.github.com/lilpea/dreamcastbot"],
 }
