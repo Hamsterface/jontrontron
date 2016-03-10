@@ -64,9 +64,27 @@
 	"^fuckthisshit$" : ["**TALL MEN WALK THROUGH THE SKY**"],
 	"^heresabird$" : ["There's no birds."],
 	"^itis$" : ["[HE'S OUT, BOYS, HE'S OUT, BAIL!]"],
-	"^sfxlevel900+$" : ["SCRIPT LEVEL 0"],
+	"^.*level900+$" : ["SCRIPT LEVEL 0"],
 	"^youreahuman$" : ["And now I'm gonna blow my **FUCKING** brains out!"],
 	"^youlooklikeasnake$" : [["**YE*SSSSSSSSSSSSSS***", "snake.png"]],
 	"^finalfantasy13$" : ["Can't wait to play this awesome gaaaameee!"],
-	"^helloyoureongamingguiltypleasures$" : ["FUCK YOU"]
+	"^helloyoureongamingguiltypleasures$" : ["FUCK YOU"],
+	"^welcometosonicteam$" : ["We make games, I think!"],
+	"^footbag$" : ["Foot... *bag.* Well, that's my favorite Cali sport, I dunno about you.\nWhaddaya like, uh, **STREET HOCK?**"],
+	"^eventhepoopyones$" : ["NOT THE POOPY ONES!"],
+	"*.idontevencare$" : ["(I care immensely.)"],
+	"^whatdoyouthink(jacques|jock|shaq|jack)$" : [
+		["`Those who can't teach, preach. And those who teach also teach.` ***`ERR. ERR. ERR.`*** *Explodes.*", "jacques.png"],
+		["`Sing me more songs, sugartits.`", "jacques.png"],
+		["`John C. Stennis, motherfucker.`", "jacques.png"],
+		["`I'm working on it. You piece of shit. You fucking piece of shit.`", "jacques.png"],
+		["`Holy shit. I'm a falcon.`", "jacques.png"],
+		["*Nibbles nose.* `Nom.`", "jacques.png"],
+		["`Bro. Like. Holy fucking shit. Just Calm Down. Like. Bro. Seriously. Do you need a glass of water or something?`", "jacques.png"],
+		["`Jon. You couldn't finish a cheese danish.`", "jacques.png"],
+		["`Is Jacques gonna have to choke a bitch?`", "jacques.png"],
+		["`Jon. were you messing with my circuits again?`", "jacques.png"],
+		["`I am omnipresent.`", "jacques.png"],
+		["`What's up Jon?`", "jacques.png"]
+		]
 }
