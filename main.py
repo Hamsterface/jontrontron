@@ -110,7 +110,7 @@ def on_message(message):
             return
         for key in responses.keys():
             if re.match(key, s, flags=re.I):
-#                yield from client.send_typing(message.channel)
+                yield from client.send_typing(message.channel)
                 response = choice(responses[key])
                 global currentAvy
                 if isinstance(response, list):
