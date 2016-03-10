@@ -72,19 +72,19 @@
 	"^welcometosonicteam$" : ["We make games, I think!"],
 	"^footbag$" : ["Foot... *bag.* Well, that's my favorite Cali sport, I dunno about you.\nWhaddaya like, uh, **STREET HOCK?**"],
 	"^eventhepoopyones$" : ["NOT THE POOPY ONES!"],
-	"*.idontevencare$" : ["(I care immensely.)"],
+	".*idontevencare$" : ["(I care immensely.)"],
 	"^whatdoyouthink((of|about)(this|it))?(jacques|jock|shaq|jack)$" : [
-		["`Those who can't teach, preach. And those who teach also teach.` ***`ERR. ERR. ERR.`*** *Explodes.*", "jacques.png"],
-		["`Sing me more songs, sugartits.`", "jacques.png"],
-		["`John C. Stennis, motherfucker.`", "jacques.png"],
-		["`I'm working on it. You piece of shit. You fucking piece of shit.`", "jacques.png"],
-		["`Holy shit. I'm a falcon.`", "jacques.png"],
-		["*Nibbles nose.* `Nom.`", "jacques.png"],
-		["`Bro. Like. Holy fucking shit. Just Calm Down. Like. Bro. Seriously. Do you need a glass of water or something?`", "jacques.png"],
-		["`Jon. You couldn't finish a cheese danish.`", "jacques.png"],
-		["`Is Jacques gonna have to choke a bitch?`", "jacques.png"],
-		["`Jon. were you messing with my circuits again?`", "jacques.png"],
-		["`I am omnipresent.`", "jacques.png"],
-		["`What's up Jon?`", "jacques.png"]
-		]
+		["`Those who can't teach, preach. And those who teach also teach.` ***`ERR. ERR. ERR.`*** *Explodes.*", "jacques.jpg"],
+		["`Sing me more songs, sugartits.`", "jacques.jpg"],
+		["`John C. Stennis, motherfucker.`", "jacques.jpg"],
+		["`I'm working on it. You piece of shit. You fucking piece of shit.`", "jacques.jpg"],
+		["`Holy shit. I'm a falcon.`", "jacques.jpg"],
+		["*Nibbles nose.* `Nom.`", "jacques.jpg"],
+		["`Bro. Like. Holy fucking shit. Just Calm Down. Like. Bro. Seriously. Do you need a glass of water or something?`", "jacques.jpg"],
+		["`Jon. You couldn't finish a cheese danish.`", "jacques.jpg"],
+		["`Is Jacques gonna have to choke a bitch?`", "jacques.jpg"],
+		["`Jon. were you messing with my circuits again?`", "jacques.jpg"],
+		["`I am omnipresent.`", "jacques.jpg"],
+		["`What's up Jon?`", "jacques.jpg"]
+	]
 }
