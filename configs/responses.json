@@ -73,7 +73,7 @@
 	"^footbag$" : ["Foot... *bag.* Well, that's my favorite Cali sport, I dunno about you.\nWhaddaya like, uh, **STREET HOCK?**"],
 	"^eventhepoopyones$" : ["NOT THE POOPY ONES!"],
 	"*.idontevencare$" : ["(I care immensely.)"],
-	"^whatdoyouthink(jacques|jock|shaq|jack)$" : [
+	"^whatdoyouthink((of|about)(this|it))?(jacques|jock|shaq|jack)$" : [
 		["`Those who can't teach, preach. And those who teach also teach.` ***`ERR. ERR. ERR.`*** *Explodes.*", "jacques.png"],
 		["`Sing me more songs, sugartits.`", "jacques.png"],
 		["`John C. Stennis, motherfucker.`", "jacques.png"],
