@@ -91,6 +91,19 @@ def on_message(message):
         s = ''.join(ch for ch in message.content if ch in include)
         if re.match(config['quit_command'], s, flags=re.I) and message.author.id == config['owner_id']:
             exit()
+        if re.match(config['reload_command'], s, flags=re.I) and message.author.id == config['owner_id']:
+            global responses
+            global game_names
+
+            with open('configs/responses.json') as z:
+                responses = json.load(z)
+
+            with open('configs/games.json') as z:
+                game_names = json.load(z)
+
+            if config['reload_response']: # If reload_response is blank, this won't trigger.
+                yield from client.send_message(message.channel, config['reload_response'])
+
         if not (message.channel.is_private or message.channel.id in config['channels']):
             if message.content == 'shitpost':
                 print('Shitpost recieved in channel id {}, which is not in the whitelist.'.format(message.channel.id))
