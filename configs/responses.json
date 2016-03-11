@@ -7,7 +7,7 @@
 	".*snap.*in(two|2)$" : ["Just kidding!"],
 	"^foolmeonce$" : ["I'm mad."],
 	"^foolmetwice$" : ["How could you?"],
-	"^foolmethreetimes$" : ["You're officially that guy, yeah, you know the one."],
+	"^foolme(three|3)times$" : ["You're officially that guy, yeah, you know the one."],
 	".*f(u|a)ckyou$" : [["I AAAAIIINNN'T HAVIN' THAT SHIT","thatshit.png"]],
 	"^arejonandarin(still)?friends$" : ["Jon punched Suzy and moved to New York."],
 	".*howmuchass.+gets?$" : ["Seven."],
