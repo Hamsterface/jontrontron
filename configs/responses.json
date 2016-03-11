@@ -86,5 +86,6 @@
 		["`Jon. were you messing with my circuits again?`", "jacques.jpg"],
 		["`I am omnipresent.`", "jacques.jpg"],
 		["`What's up Jon?`", "jacques.jpg"]
-	]
+	],
+    "^(isaid)?a(m|mother|motha|mutha)(f|fuck|fack|fck|feck)ing?chainsaw" : ["What?", "What did I just say!?!", "Say that again?"]
 }
