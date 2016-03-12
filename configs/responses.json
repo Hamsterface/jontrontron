@@ -17,7 +17,7 @@
 	"^hitler$" : ["(Arin's dad)"],
 	"^arinsdad$" : ["(Hitler)"],
 	"^jonsgay$" : ["SHOW US YOUR BUTT"],
-	"^jonwins$" : ["As usual."],
+	"^jonwins$" : ["As usual.", "http://vignette4.wikia.nocookie.net/gamegrumps/images/9/9d/As_Usual.jpg/revision/latest?cb=20130114030317.jpg"],
 	"^(and)?thatsjon$" : ["Because **JON** won the **GOLD** and he **WENT** for the **WIN**"],
 	"^(a?couple(of?|a)(hundred|whatt?)|howmany)(of?|a)(th)?em$" : [["***COUPLE OF HUNDRED OF THEM*** just up ahead.","zeus.jpg"]],
 	"^(so)?goodluck$" : ["Thank you."],
@@ -65,7 +65,7 @@
 	"^heresabird$" : ["There's no birds."],
 	"^itis$" : ["[HE'S OUT, BOYS, HE'S OUT, BAIL!]"],
 	"^.*level900+$" : ["SCRIPT LEVEL 0"],
-	"^youreahuman$" : ["And now I'm gonna blow my **FUCKING** brains out!"],
+	"^youreahuman$" : ["And IIIIIIIII'm about to blow my **FUCKING** brains out!"],
 	"^youlooklikeasnake$" : [["**YE*SSSSSSSSSSSSSS***", "snake.png"]],
 	"^finalfantasy13$" : ["Can't wait to play this awesome gaaaameee!"],
 	"^helloyoureongamingguiltypleasures$" : ["FUCK YOU"],
@@ -87,9 +87,14 @@
 		["`I am omnipresent.`", "jacques.jpg"],
 		["`What's up Jon?`", "jacques.jpg"]
 	],
-    "^(isaid)?a(m|mother|motha|mutha)(f|fuck|fack|fck|feck)ing?chainsaw" : ["What?", "What did I just say!?!", "Say that again?"],
+    "^(isaid|like)?a(m|mother|motha|mutha)(f|fuck|fack|fck|feck)ing?chainsaw" : [["What?", "durst.jpg"], ["What did I just say!?!", "durst.jpg"], ["Say that again?", "durst.jpg"]],
     "^(doyou)?thinkicould(takea)?swim" : ["**OOOH *YEEEAH*\nOOOH *NOOO***"],
-    "^ihavea(plentyof)?imagination" : ["AND YOU LEFT THE DRILL OUT BEFORE I COULD GET THE **DEMON OUT OF MY MIND**"],
+    "^ihavea(plentyof)?imagination" : ["YOU DIDN'T HAVE TO DRILL THAT FAR TO GET THE **DEMON OUT OF MY BRAIN**"],
     "^(imeanlookatme)?ilooklikesomethingthecatdraggedin" : ["HE'S IN BOYS, HE DID IT, HE SAID IT\n*airhorns*"],
-    "^(wait)?yourenotacrazyperson(right)?(imean)?(nooffense)?" : ["Ah yes, the classic psychiatric evaluation for all crazy people. You just walk up \"Yo, you crazy?\"? What, would a crazy stranger walk up to you if you ask him that question?"]
+    "^(wait)?yourenotacrazyperson(right)?(imean)?(nooffense)?" : ["Ah yes, the classic psychiatric evaluation for all crazy people: You just walk up \"Yo, you crazy?\"? What, would a crazy stranger do something like aggressively walk closer to you if you ask him that question?"],
+    "^thatsracist$" : ["Now you listen here, pip-pip. A racist mind is a racist kind. You, you take that to sleep with you tonight cause I know, it's not gonna change hearts and minds in a day. You don't give a man a peanut, expect him to have a farm the next day. But it's alright. It's alright. One day, we will all be equal on this earth. Until then, I'm gonna give you a kiss, muffin."],
+    "^clowns$" : [["**Clowns!**", "clowns.jpg"]],
+    "^(letsgoto)florida$" : ["**EUUACK.** *Cough, cough.* Oh, I think saying that just burned my mouth for some reason!"],
+    "^(what(isitthat)?hasnoweightcanbeseenbythenakedeyeand|what(isit)?that)?(ifyouput(it)?inabarrelit)?willmakethebarrellighter$" : ["Halloween, it's gotta be candy- 3 Musketeers. Lightest candy bar. Fuck you."],
+    "^buttheothers$" : ["...Fuck it!\n*Tires squealing*"]
 }
