@@ -89,7 +89,7 @@
 	],
     "^(isaid)?a(m|mother|motha|mutha)(f|fuck|fack|fck|feck)ing?chainsaw" : ["What?", "What did I just say!?!", "Say that again?"],
     "^(doyou)?thinkicould(takea)?swim" : ["**OOOH *YEEEAH*\nOOOH *NOOO***"],
-    "^ihavea(plentyof)?imagination" : ["AND YOU LEFT THE DRILL OUT BEFORE I COULD GET THE **DEMON OUT OF MY MIND**"],
+    "^ihave(a|an)(plentyof)?imagination" : ["AND YOU LEFT THE DRILL OUT BEFORE I COULD GET THE **DEMON OUT OF MY BRAIN**", "YOU DIDN'T HAVE TO DRILL THAT FAR TO GET THE **DEMON OUT OF MY BRAIN**"],
     "^(imeanlookatme)?ilooklikesomethingthecatdraggedin" : ["HE'S IN BOYS, HE DID IT, HE SAID IT\n*airhorns*"],
     "^(wait)?yourenotacrazyperson(right)?(imean)?(nooffense)?" : ["Ah yes, the classic psychiatric evaluation for all crazy people. You just walk up \"Yo, you crazy?\"? What, would a crazy stranger walk up to you if you ask him that question?"]
 }
