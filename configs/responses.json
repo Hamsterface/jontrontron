@@ -57,7 +57,7 @@
 	"^hasmilkgonebad$" : [["It is official. Milk has gone bad.","milkgonebad.png"]],
 	"^(ddr)+$" : ["**LOSE LOSE LOSE LOSE**"],
 	"^(sorry)?ionlyspeaktosailors$" :  ["Well if that's the case you're probably gonna be pretty much limiting yourself to port towns honestly, and *even* then they're out to sea most of the time... why aren't you on a *boat*? **A boat would really be a  better fit for you, ALSO, WHAT THE FUCK? WHO SAYS THAT.**"],
-	"^gamefilip$" : ["Perfect for children with no necks!", "Finally, a game system for me!"],
+	"^gamefill?ip$" : ["Perfect for children with no necks!", "Finally, a game system for me!"],
 	"^i(ve)?cheatedyou$" : ["I've cheated all of you and you didn't even notice."],
 	"^dishwasher$" : ["no","YES"],
 	"^(im)?gladtoseenothinghaschangedaroundhere$" : ["Two worlds, one family!"],
