@@ -68,8 +68,8 @@
 	"^youreahuman$" : ["And IIIIIIIII'm about to blow my **FUCKING** brains out!"],
 	"^youlooklikeasnake$" : [["**YE*SSSSSSSSSSSSSS***", "snake.png"]],
 	"^finalfantasy13$" : ["Can't wait to play this awesome gaaaameee!"],
-	"^helloyoureongamingguiltypleasures$" : ["FUCK YOU"],
-	"^welcometosonicteam$" : ["We make games, I think!"],
+	"^yesyoureongamingguiltypleasures$" : ["FUCK YOU"],
+	"^welcometosonicteam$" : ["We make games I think!"],
 	"^footbag$" : ["Foot... *bag.* Well, that's my favorite Cali sport, I dunno about you.\nWhaddaya like, uh, **STREET HOCK?**"],
 	"^eventhepoopyones$" : ["NOT THE POOPY ONES!"],
 	".*idontevencare$" : ["(I care immensely.)"],
@@ -96,5 +96,8 @@
     "^clowns$" : [["**Clowns!**", "clowns.jpg"]],
     "^(letsgoto)florida$" : ["**EUUACK.** *Cough, cough.* Oh, I think saying that just burned my mouth for some reason!"],
     "^(what(isitthat)?hasnoweightcanbeseenbythenakedeyeand|what(isit)?that)?(ifyouput(it)?inabarrelit)?willmakethebarrellighter$" : ["Halloween, it's gotta be candy- 3 Musketeers. Lightest candy bar. Fuck you."],
-    "^buttheothers$" : ["...Fuck it!\n*Tires squealing*"]
+    "^buttheothers$" : ["...Fuck it!\n*Tires squealing*"],
+    "^.200518784$" : ["Man, it's gonna be while until fair use kicks in one this one."],
+    "^(w|v)ee?go(o|a)ut(in(z|th)ee?sno(w|u))?((w|v)ith(z|th)ee?(f|v)r(y|a)ing?p(a|e)n)?(a|e)ndtr(y|ai)t(o|u)(c|k)(a|e)tch(santaclaus|sinterklaas|s(ä|a|e)nterklau(ß|s))s?ee?vilg(i|e)e?ftsfr(a|o)m(d|z|th)ee?sk(ai|y)$" : ["EET EES A GREIT TIME FÜR ALL KINDER IN DOITSCHLAND﻿"],
+    "^grilledmormo(ns)?(mo)?(mormons)?" : ["Oh what's going on, I didn't know it was alright to eat those guys, I be-better should check the Broble make sure that's ok"]
 }
