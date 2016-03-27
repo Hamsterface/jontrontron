@@ -10,7 +10,7 @@
 
 #Configuration
 
-Edit config.json as such, filling in any necessary information:
+Create a file with this name, filling in any necessary information:
 
 `configs/config.json`
 ```
