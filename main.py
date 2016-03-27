@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import string, sys, discord, json, traceback, asyncio, re
 from random import choice
 
