@@ -16,7 +16,7 @@ with open('configs/config.json') as data:
     config = json.load(data)
 
 with open('configs/responses.json') as data:
-    responses = json.load(data)
+    shitposts = json.load(data)
 
 with open('configs/games.json') as data:
     game_names = json.load(data)
@@ -61,18 +61,6 @@ def random_game():
         yield from client.change_status(game=choice(games_list), idle=False)
         yield from asyncio.sleep(600)
 
-#@asyncio.coroutine
-#def rainbows():
-#    while True:
-#        try:
-#            for server in client.servers:
-#                for role in server.me.roles:
-#                    if(role.name == "swood"):
-#                            yield from client.edit_role(server, role, color=choice(colors))
-#        except:
-#            print('there was an error setting colors')
-#        yield from asyncio.sleep(0.5)
-
 @client.async_event
 def on_ready():
     print('Logged in as')
@@ -93,11 +81,11 @@ def on_message(message):
         if re.match(config['quit_command'], s, flags=re.I) and message.author.id == config['owner_id']:
             exit()
         if re.match(config['reload_command'], s, flags=re.I) and message.author.id == config['owner_id']:
-            global responses
+            global shitposts
             global game_names
 
-            with open('configs/responses.json') as z:
-                responses = json.load(z)
+            with open('configs/shitposts.json') as z:
+                shitposts = json.load(z)
 
             with open('configs/games.json') as z:
                 game_names = json.load(z)
@@ -109,10 +97,10 @@ def on_message(message):
             if message.content == 'shitpost':
                 print('Shitpost recieved in channel id {}, which is not in the whitelist.'.format(message.channel.id))
             return
-        for key in responses.keys():
+        for key in shitposts.keys():
             if re.match(key, s, flags=re.I):
                 yield from client.send_typing(message.channel)
-                response = choice(responses[key])
+                response = choice(shitposts[key])
                 global currentAvy
                 if isinstance(response, list):
                     filename = response[1]
@@ -129,7 +117,7 @@ def on_message(message):
                             print('Changing avy to default')
                             yield from client.edit_profile(config['password'],avatar=img.read())
                         currentAvy = 'hamtron.png'
-                    print('channel: {}, input :"{}", response: "{}"'.format(message.channel.id,s,response))
+#                    print('channel: {}, input :"{}", response: "{}"'.format(message.channel.id,s,response))
                     yield from client.send_message(message.channel, response)
                 break
 
