@@ -84,7 +84,7 @@ def on_message(message):
             global shitposts
             global game_names
 
-            with open('configs/shitposts.json') as z:
+            with open('configs/responses.json') as z:
                 shitposts = json.load(z)
 
             with open('configs/games.json') as z:
