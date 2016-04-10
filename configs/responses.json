@@ -102,16 +102,16 @@
 	"^grilledmormo(ns)?(mo)?(mormons)?" : ["Oh what's going on, I didn't know it was alright to eat those guys, I be-better should check the Broble make sure that's ok"],
 	"^dannydevito(that)?talkstoyou" : ["KICK IT DANNY"],
 	"^wev?e?got(hockey)?coachman(justmaking)?(woo)?h?justmakingasceneforeveryonetoenjoy" : [
-		"COME ON what's goin' on, let's get some HEADS UP **HOCKEY**",
-		"That guy over there I'll tell ya somethin'",
-		"TEN MILLION DOLLARS ON ???? GAYS",
-		"I SEE YOU GUYS OVER THERE YOU'LL BE SAT DOWN AT THE MINERS.",
-		"HEY GET UP GET UP",
-		"AVADA KEVADRA",
-		"LOOKIT. THIS GUY *LOOOOOOOOKAT* 'UM.",
-		"TEN MILLION DOLLARS",
-		"Get blown out there, don't be that guy",
-		"FUCKS LIKE a little kid OUT THERE",
-		"*non-specific orgasm*"
+		["COME ON what's goin' on, let's get some HEADS UP **HOCKEY**", "coach.png"],
+		["That guy over there I'll tell ya somethin'", "coach.png"],
+		["TEN MILLION DOLLARS ON ???? GAYS", "coach.png"],
+		["I SEE YOU GUYS OVER THERE YOU'LL BE SAT DOWN AT THE MINERS.", "coach.png"],
+		["HEY GET UP GET UP", "coach.png"],
+		["AVADA KEVADRA", "coach.png"],
+		["LOOKIT. THIS GUY *LOOOOOOOOKAT* 'UM.", "coach.png"],
+		["TEN MILLION DOLLARS", "coach.png"],
+		["Get blown out there, don't be that guy", "coach.png"],
+		["FUCKS LIKE a little kid OUT THERE", "coach.png"],
+		["*non-specific orgasm*", "coach.png"]
     	]
 }
