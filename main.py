@@ -76,7 +76,7 @@ currentAvy = ''
 
 @client.async_event
 def on_message(message):
-    if message.author.id != client.user.id:
+    if message.author.id != client.user.id and '\u200b' not in message.content:
         s = ''.join(ch for ch in message.content if ch in include)
         if re.match(config['quit_command'], s, flags=re.I) and message.author.id == config['owner_id']:
             exit()
@@ -118,6 +118,7 @@ def on_message(message):
                             yield from client.edit_profile(config['password'],avatar=img.read())
                         currentAvy = 'hamtron.png'
 #                    print('channel: {}, input :"{}", response: "{}"'.format(message.channel.id,s,response))
+                    response = '\u200b'+response
                     yield from client.send_message(message.channel, response)
                 break
 
