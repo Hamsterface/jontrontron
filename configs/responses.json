@@ -8,7 +8,7 @@
 	"^foolmeonce$" : ["I'm mad."],
 	"^foolmetwice$" : ["How could you?"],
 	"^foolme(three|3)times$" : ["You're officially that guy, yeah, you know the one."],
-	".*f(u|a)ckyou$" : [["I AAAAIIINNN'T HAVIN' THAT SHIT","thatshit.png"]],
+	".*fu?a?ckyou$" : [["I AAAAIIINNN'T HAVIN' THAT SHIT","thatshit.png"]],
 	"^arejonandarin(still)?friends$" : ["Jon punched Suzy and moved to New York."],
 	".*howmuchass.+gets?$" : ["Seven."],
 	"^(seven|7)$" : ["SEVEN ASSES."],
@@ -113,5 +113,9 @@
 		["Get blown out there, don't be that guy", "coach.png"],
 		["FUCKS LIKE a little kid OUT THERE", "coach.png"],
 		["*non-specific orgasm*", "coach.png"]
-    	]
+    	],
+    	"^(it)?itsawful" : ["IT'S ALL FUCKING AWFUL! **ALL OF IT!** AND **EVERY SINGLE ONE OF THEM SUCK**!"],
+    	"^(ech|heugh)sb(a|o)h?x" : ["I'm goddamn upstanding with this"],
+    	"Dad" : ["Zack"],
+    	"imean(it|this)seems(tome)?thatthisisan?(perfectly)?accuratesimulationofcaliforniasport(ery|s)" : ["**IF YOU SUCK**"]
 }
