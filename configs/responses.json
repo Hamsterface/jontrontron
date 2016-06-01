@@ -116,6 +116,6 @@
     	],
     	"^(it)?itsawful" : ["IT'S ALL FUCKING AWFUL! **ALL OF IT!** AND **EVERY SINGLE ONE OF THEM SUCK**!"],
     	"^(ech|heugh)sb(a|o)h?x" : ["I'm goddamn upstanding with this"],
-    	"Dad" : ["Zack"],
-    	"imean(it|this)seems(tome)?thatthisisan?(perfectly)?accuratesimulationofcaliforniasport(ery|s)" : ["**IF YOU SUCK**"]
+    	"^dad" : ["Zack"],
+    	"^imean(it|this)seems(tome)?thatthisisan?(perfectly)?accuratesimulationofcaliforniasport(ery|s)" : ["**IF YOU SUCK**"]
 }
