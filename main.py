@@ -149,7 +149,7 @@ def on_error(event, *args, **kwargs):
             print('This error was caused by a message.\nServer: {}. Channel: #{}.\n'.format(args[0].server.name, args[0].channel.name))
 
         if sys.exc_info()[0].__name__ == 'ClientOSError' or sys.exc_info()[0].__name__ == 'ClientResponseError' or sys.exc_info()[0].__name__ == 'HTTPException':
-            yield from client.send_message(args[0].channel, 'Sorry, I am under heavy load right now! This is probably due to a poor internet connection. Please submit your command again later.')
+            yield from client.send_message(args[0].channel, 'Sorry, I have eaten too many yeeros! This is probably due to a Hercules video game saying that they replenish your health. Please submit your command again later.')
         elif sys.exc_info()[0].__name__ == 'Forbidden':
             yield from client.send_message(args[0].channel, 'You told me to do something that requires permissions I currently do not have. Ask an administrator to give me a proper role or something!')
         else:
