@@ -63,6 +63,7 @@ def random_game():
 
 @client.async_event
 def on_ready():
+    yield from client.edit_profile(config['token'],username='JonTronTron')
     print('Logged in as')
     print(client.user.name)
     print(client.user.id)
@@ -79,7 +80,7 @@ def on_message(message):
     if message.author.id != client.user.id and '\u200b' not in message.content:
         s = ''.join(ch for ch in message.content if ch in include)
         if re.match(config['quit_command'], s, flags=re.I) and message.author.id == config['owner_id']:
-            exit()
+            client.logout()
         if re.match(config['reload_command'], s, flags=re.I) and message.author.id == config['owner_id']:
             global shitposts
             global game_names
@@ -93,10 +94,6 @@ def on_message(message):
             if config['reload_response']: # If reload_response is blank, this won't trigger.
                 yield from client.send_message(message.channel, config['reload_response'])
 
-        if not (message.channel.is_private or message.channel.id in config['channels']):
-            if message.content == 'shitpost':
-                print('Shitpost recieved in channel id {}, which is not in the whitelist.'.format(message.channel.id))
-            return
         for key in shitposts.keys():
             if re.match(key, s, flags=re.I):
                 yield from client.send_typing(message.channel)
@@ -107,7 +104,7 @@ def on_message(message):
                     if filename != currentAvy:
                         with open(filename, 'rb') as img:
                             print('Changing avy to {}'.format(filename))
-                            yield from client.edit_profile(config['password'],avatar=img.read())
+                            yield from client.edit_profile(config['token'],avatar=img.read())
                         currentAvy = filename
                     print('channel: {}, input :"{}", response: "{}"'.format(message.channel.id,s,response[0]))
                     yield from client.send_message(message.channel, response[0])
@@ -115,9 +112,9 @@ def on_message(message):
                     if currentAvy != 'hamtron.png':
                         with open('hamtron.png', 'rb') as img:
                             print('Changing avy to default')
-                            yield from client.edit_profile(config['password'],avatar=img.read())
+                            yield from client.edit_profile(config['token'],avatar=img.read())
                         currentAvy = 'hamtron.png'
-#                    print('channel: {}, input :"{}", response: "{}"'.format(message.channel.id,s,response))
+                    print('channel: {}, input :"{}", response: "{}"'.format(message.channel.name,s,response.encode('utf-8')))
                     response = '\u200b'+response
                     yield from client.send_message(message.channel, response)
                 break
@@ -151,19 +148,21 @@ def on_error(event, *args, **kwargs):
         if sys.exc_info()[0].__name__ == 'ClientOSError' or sys.exc_info()[0].__name__ == 'ClientResponseError' or sys.exc_info()[0].__name__ == 'HTTPException':
             yield from client.send_message(args[0].channel, 'Sorry, I am under heavy load right now! This is probably due to a poor internet connection. Please submit your command again later.')
         elif sys.exc_info()[0].__name__ == 'Forbidden':
-            yield from client.send_message(args[0].channel, 'You told me to do something that requires permissions I currently do not have. Ask an administrator to give me a proper role or something!')
+            pass
+#           yield from client.send_message(args[0].channel, 'You told me to do something that requires permissions I currently do not have. Ask an administrator to give me a proper role or something!')
         else:
-            yield from client.send_message(args[0].channel, '{}\n{}: You caused {} **{}** with your command.'.format(
-                choice(hilarious_snark),
-                args[0].author.mention,
-                aan(sys.exc_info()[0].__name__),
-                sys.exc_info()[0].__name__)
-            )
+            pass
+#           yield from client.send_message(args[0].channel, '{}\n{}: You caused {} **{}** with your command.'.format(
+#                choice(hilarious_snark),
+#                args[0].author.mention,
+#                aan(sys.exc_info()[0].__name__),
+#                sys.exc_info()[0].__name__)
+#            )
 
 # I'm gonna be honest, I have *no clue* how asyncio works. This is all from the
 # example in the docs.
 def main_task():
-    yield from client.login(config['email'], config['password'])
+    yield from client.login(config['token'])
     yield from client.connect()
 
 loop = asyncio.get_event_loop()
