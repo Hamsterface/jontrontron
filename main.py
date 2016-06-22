@@ -76,6 +76,11 @@ include = set(string.ascii_letters.join(string.digits))
 currentAvy = ''
 
 @client.async_event
+def on_member_join(member):
+    if member.server.id == '99293578949316608' and len(member.server.members) == 1000:
+        yield from client.send_message(member.server, 'This bombad server now has a thousand swood grommets!'')
+
+@client.async_event
 def on_message(message):
     if message.author.id != client.user.id and '\u200b' not in message.content:
         s = ''.join(ch for ch in message.content if ch in include)
