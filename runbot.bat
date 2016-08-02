@@ -1,4 +1,4 @@
 :loop
-main.py
+python main.py
 sleep 5
 GOTO :loop
