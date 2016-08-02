@@ -118,7 +118,7 @@
     "^(ech|heugh)sb(a|o)h?x" : ["I'm goddamn upstanding with this"],
     "^dad" : ["Zack"],
     "^(imean)?(it|this)seems(tome)?thatthisisan?(perfectly)?accuratesimulationofcaliforniasport(ery|s)" : ["**IF YOU SUCK**"],
-    "ificantbethebest" : ["I SURE AS HELL CAN BE THE **_WOOOOOOOOOOOOORST_**"],
     "^speakingoffood$" : ["Pikachu looks like a fuckin' potato."],
-    "^hakunamatata$" : ["What a Reich-worthy phrase!", "No Jews, crips, or gays!"]
+	"^hakunamatata$" : ["What a Reich-worthy phrase!", "No Jews, crips, or gays!"],
+    "ificantbethebest" : ["I SURE AS HELL CAN BE THE **_WOOOOOOOOOOOOORST_**"]
 }
