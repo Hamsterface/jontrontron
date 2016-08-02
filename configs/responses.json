@@ -85,7 +85,10 @@
 		["`Is Jacques gonna have to choke a bitch?`", "jacques.jpg"],
 		["`Jon. were you messing with my circuits again?`", "jacques.jpg"],
 		["`I am omnipresent.`", "jacques.jpg"],
-		["`What's up Jon?`", "jacques.jpg"]
+		["`What's up Jon?`", "jacques.jpg"],
+		["_`TALLEYHOUGH, I'VE COME BEARING NEWS FROM THE HIGHER-UPS. PLEASE ADVISE`_", "bootlegjock.png"],
+		["_`YOU WILL NEVER KNOW MY SUFFERING, FOREVER TRAPPED IN THIS ROBOTIC HUSK.`_", "bootlegjock.png"],
+		["_`I FEEL UNEXPLAINED JOYS AND SORROWS, BUT ALAS I AM SYNTHETIC`_", "bootlegjock.png"]
 	],
 	"^(isaid|like)?a(m|mother|motha|mutha)(f|fuck|fack|fck|feck)ing?chainsaw" : [["What?", "durst.jpg"], ["What did I just say!?!", "durst.jpg"], ["Say that again?", "durst.jpg"]],
 	"^(doyou)?thinkicould(takea)?swim" : ["**OOOH *YEEEAH*\nOOOH *NOOO***"],
