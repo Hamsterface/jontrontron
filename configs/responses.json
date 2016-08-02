@@ -13,7 +13,7 @@
 	".*howmuchass.+gets?$" : ["Seven."],
 	"^(seven|7)$" : ["SEVEN ASSES."],
 	"^lifesacircus$" : [["I'm the clown.","anubis.png"]],
-	"^u?nokel$" : ["(numnums)"],
+	"^u?nokel$" : ["(Numnums)"],
 	"^hitler$" : ["(Arin's dad)"],
 	"^arinsdad$" : ["(Hitler)"],
 	"^jonsgay$" : ["SHOW US YOUR BUTT"],
@@ -34,7 +34,7 @@
 	".*servemeinthelandofthedead$" : ["Excuse me, Hades, do you think you could speak up a bit?"],
 	"^hercules$" : ["does what Nintendercules"],
 	"^t+itenic$" : ["THE BOUGIEST OF BEAT 'EM UPS","I would play *any game on Earth,* yes I would play *any game on Earth!* I would play *any game on Earth... but I won't play that.*"],
-	".*142077694673158144.*" : ["WHAT DO YOU WANT FROM ME"],
+	".*(142077694673158144|199824160740868096).*" : ["WHAT DO YOU WANT FROM ME"],
 	".*krystal.*" : ["Blueboobs McFurrydream"],
 	"^ham$" : ["This'll kill him.","The harbinger of gout, and a Scissorman's worst friend."],
 	"^hamshade$" : ["The Bots of **HEUGH**"],
@@ -64,7 +64,7 @@
 	"^fuckthisshit$" : ["**TALL MEN WALK THROUGH THE SKY**"],
 	"^heresabird$" : ["There's no birds."],
 	"^itis$" : ["[HE'S OUT, BOYS, HE'S OUT, BAIL!]"],
-	"^.*level900+$" : ["SCRIPT LEVEL 0"],
+	"^.*level999+$" : ["SCRIPT LEVEL 0"],
 	"^youreahuman$" : ["And IIIIIIIII'm about to blow my **FUCKING** brains out!"],
 	"^youlooklikeasnake$" : [["**YE*SSSSSSSSSSSSSS***", "snake.png"]],
 	"^finalfantasy13$" : ["Can't wait to play this awesome gaaaameee!"],
@@ -101,7 +101,7 @@
 	"^(w|v)ee?go(o|a)ut(in(z|th)ee?sno(w|u))?((w|v)ith(z|th)ee?(f|v)r(y|a)ing?p(a|e)n)?(a|e)ndtr(y|ai)t(o|u)(c|k)(a|e)tch(santaclaus|sinterklaas)s?ee?vilg(i|e)e?ftsfr(a|o)m(d|z|th)ee?sk(ai|y)$" : ["EET EES A GREIT TIME FUR ALL KINDER IN DOITSCHLAND!"],
 	"^grilledmormo(ns)?(mo)?(mormons)?" : ["Oh what's going on, I didn't know it was alright to eat those guys, I be-better should check the Broble make sure that's ok"],
 	"^dannydevito(that)?talkstoyou" : ["KICK IT DANNY"],
-	"^wev?e?got(hockey)?coachman(justmaking)?(woo)?h?justmakingasceneforeveryonetoenjoy" : [
+	"^.*hockeycoachman.*making?ascene.*$" : [
 		["COME ON what's goin' on, let's get some HEADS UP **HOCKEY**", "coach.png"],
 		["That guy over there I'll tell ya somethin'", "coach.png"],
 		["TEN MILLION DOLLARS ON ???? GAYS", "coach.png"],
@@ -114,10 +114,11 @@
 		["FUCKS LIKE a little kid OUT THERE", "coach.png"],
 		["*non-specific orgasm*", "coach.png"]
     	],
-    "^(it)?itsawful" : ["IT'S ALL FUCKING AWFUL! **ALL OF IT! ALL OF IT! EVERY SINGLE ONE OF THEM SUCKS**!"],
-    "^(ech|heugh)sb(a|o)h?x" : ["I'm goddamn upstanding with this"],
-    "^dad" : ["Zack"],
-    "^imean(it|this)seems(tome)?thatthisisan?(perfectly)?accuratesimulationofcaliforniasport(ery|s)" : ["**IF YOU SUCK**"],
-    "^speakingoffood$" : ["Pikachu looks like a fuckin' potato."],
-	"^hakunamatata$" : ["What a Reich-worthy phrase!", "No Jews, crips, or gays!"]
+	"^(it)?itsawful" : ["IT'S ALL FUCKING AWFUL! **ALL OF IT! ALL OF IT! EVERY SINGLE ONE OF THEM SUCKS**!"],
+	"^(ech|heugh)sb(a|o)h?x" : ["I'm goddamn upstanding with this"],
+	"^dad" : ["Zack"],
+	"^(imean)?(it|this)seems(tome)?thatthisisan?(perfectly)?accuratesimulationofcaliforniasport(ery|s)" : ["**IF YOU SUCK**"],
+	"^speakingoffood$" : ["Pikachu looks like a fuckin' potato."],
+	"^hakunamatata$" : ["What a Reich-worthy phrase!", "No Jews, crips, or gays!"],
+	"ificantbethebest" : ["I SURE AS HELL CAN BE THE **_WOOOOOOOOOOOOORST_**"]
 }
