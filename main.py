@@ -107,8 +107,8 @@ def on_message(message):
                                 print('Changing avy to {}'.format(filename))
                                 yield from client.edit_profile(config['token'],avatar=img.read())
                             currentAvy = filename
-                        print('channel: {}, input :"{}", response: "{}"'.format(message.channel.name,s,str(response[0].encode('utf-8'))))
-                        yield from client.send_message(message.channel, response[0])
+                    print('channel: {}, input :"{}", response: "{}"'.format(message.channel.name,s,str(response[0].encode('utf-8'))))
+                    yield from client.send_message(message.channel, response[0])
                 else:
                     if currentAvy != 'hamtron.png':
                         with open('hamtron.png', 'rb') as img:
