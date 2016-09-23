@@ -119,20 +119,6 @@ def on_message(message):
                     response = '\u200b'+response
                     yield from client.send_message(message.channel, response)
                 break
-        if message.content.startswith("!@#eval ") and message.author.id == config['owner_id']:
-            g_1 = message.content.split(None, 1)[1]
-            if g_1.startswith('yield from'):
-                response = yield from eval(message.content.split(None, 3)[3])
-            elif g_1.startswith('exec'):
-                exec(message.content.split(None, 2)[2])
-                response = False
-            else:
-                response = eval(message.content.split(None, 1)[1])
-            if response:
-                yield from client.send_message(
-                    message.channel,
-                    '{}'.format(response)
-                    )
 
 
 hilarious_snark = [
