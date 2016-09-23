@@ -13,7 +13,7 @@
 	".*howmuchass.+gets?$" : ["Seven."],
 	"^(seven|7)$" : ["SEVEN ASSES."],
 	"^lifesacircus$" : [["I'm the clown.","anubis.png"]],
-	"^u?nokel$" : ["(Numnums)"],
+	"^nokel$" : ["(GrantVsZombies)"],
 	"^hitler$" : ["(Arin's dad)"],
 	"^arinsdad$" : ["(Hitler)"],
 	"^jonsgay$" : ["SHOW US YOUR BUTT"],
