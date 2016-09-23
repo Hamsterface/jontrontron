@@ -13,11 +13,7 @@
 	".*howmuchass.+gets?$" : ["Seven."],
 	"^(seven|7)$" : ["SEVEN ASSES."],
 	"^lifesacircus$" : [["I'm the clown.","anubis.png"]],
-<<<<<<< HEAD
-	"^u?nokel$" : ["(NUMNUMS)"],
-=======
 	"^u?nokel$" : ["(Numnums)"],
->>>>>>> 7b09d7c3478d6e111f70675d3b1a8699bf6d99f9
 	"^hitler$" : ["(Arin's dad)"],
 	"^arinsdad$" : ["(Hitler)"],
 	"^jonsgay$" : ["SHOW US YOUR BUTT"],
@@ -118,7 +114,6 @@
 		["FUCKS LIKE a little kid OUT THERE", "coach.png"],
 		["*non-specific orgasm*", "coach.png"]
     	],
-<<<<<<< HEAD
     "^(it)?itsawful" : ["IT'S ALL FUCKING AWFUL! **ALL OF IT! ALL OF IT! EVERY SINGLE ONE OF THEM SUCKS**!"],
     "^(ech|heugh)sb(a|o)h?x" : ["I'm goddamn upstanding with this"],
     "^dad" : ["Zack"],
@@ -126,17 +121,7 @@
     "^speakingoffood$" : ["Pikachu looks like a fuckin' potato."],
 	"^hakunamatata$" : ["What a Reich-worthy phrase!", "No Jews, crips, or gays!"],
     "^ificantbethebest$" : ["I SURE AS HELL CAN BE THE **_WOOOOOOOOOOOOORST_**"],
-    "^rudetestfor(.+)$" : ["What \\1?"],
     "^faith$" : ["Faith killed too many men my age."],
-=======
-	"^(it)?itsawful" : ["IT'S ALL FUCKING AWFUL! **ALL OF IT! ALL OF IT! EVERY SINGLE ONE OF THEM SUCKS**!"],
-	"^(ech|heugh)sb(a|o)h?x" : ["I'm goddamn upstanding with this"],
-	"^dad" : ["Zack"],
-	"^(imean)?(it|this)seems(tome)?thatthisisan?(perfectly)?accuratesimulationofcaliforniasport(ery|s)" : ["**IF YOU SUCK**"],
-	"^speakingoffood$" : ["Pikachu looks like a fuckin' potato."],
-	"^hakunamatata$" : ["What a Reich-worthy phrase!", "No Jews, crips, or gays!"],
-	"^ificantbethebest$" : ["I SURE AS HELL CAN BE THE **_WOOOOOOOOOOOOORST_**"],
->>>>>>> 7b09d7c3478d6e111f70675d3b1a8699bf6d99f9
     "^howyoudoing?chickenboy$" : ["Well first of all that insult could have used some work, second of all the pain and humiliation I feel daily, for someone like you to cut someone like me deeper, well, you must have problems yourself and **_HOW FUCKIN' DARE YOU SAY THAT TO ME, I'M GONNA MAKE YOU REGRET THOSE GODDAMN WORDS_**"],
     "^microsoftstudios$" : ["Actually Fuck You"],
     "^youcanleavea?complaints?inthecomplaints?box$" : ["BUT I DON'T CHECK THAT SHIT"]
