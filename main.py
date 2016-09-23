@@ -100,7 +100,7 @@ def on_message(message):
                 response = choice(shitposts[key])
                 global currentAvy
                 if isinstance(response, list):
-                    if config['change_avy'] = "on":
+                    if config['change_avy'] == "on":
                         filename = response[1]
                         if filename != currentAvy:
                             with open(filename, 'rb') as img:
@@ -109,7 +109,7 @@ def on_message(message):
                             currentAvy = filename
                         print('channel: {}, input :"{}", response: "{}"'.format(message.channel.name,s,str(response[0].encode('utf-8'))))
                         yield from client.send_message(message.channel, response[0])
-               else:
+                else:
                     if currentAvy != 'hamtron.png':
                         with open('hamtron.png', 'rb') as img:
                             print('Changing avy to default')
