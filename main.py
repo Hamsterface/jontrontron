@@ -100,15 +100,16 @@ def on_message(message):
                 response = choice(shitposts[key])
                 global currentAvy
                 if isinstance(response, list):
-                    filename = response[1]
-                    if filename != currentAvy:
-                        with open(filename, 'rb') as img:
-                            print('Changing avy to {}'.format(filename))
-                            yield from client.edit_profile(config['token'],avatar=img.read())
-                        currentAvy = filename
-                    print('channel: {}, input :"{}", response: "{}"'.format(message.channel.name,s,str(response[0].encode('utf-8'))))
-                    yield from client.send_message(message.channel, response[0])
-                else:
+                    if config['change_avy'] = "on":
+                        filename = response[1]
+                        if filename != currentAvy:
+                            with open(filename, 'rb') as img:
+                                print('Changing avy to {}'.format(filename))
+                                yield from client.edit_profile(config['token'],avatar=img.read())
+                            currentAvy = filename
+                        print('channel: {}, input :"{}", response: "{}"'.format(message.channel.name,s,str(response[0].encode('utf-8'))))
+                        yield from client.send_message(message.channel, response[0])
+               else:
                     if currentAvy != 'hamtron.png':
                         with open('hamtron.png', 'rb') as img:
                             print('Changing avy to default')
@@ -118,6 +119,21 @@ def on_message(message):
                     response = '\u200b'+response
                     yield from client.send_message(message.channel, response)
                 break
+        if message.content.startswith("!@#eval ") and message.author.id == config['owner_id']:
+            g_1 = message.content.split(None, 1)[1]
+            if g_1.startswith('yield from'):
+                response = yield from eval(message.content.split(None, 3)[3])
+            elif g_1.startswith('exec'):
+                exec(message.content.split(None, 2)[2])
+                response = False
+            else:
+                response = eval(message.content.split(None, 1)[1])
+            if response:
+                yield from client.send_message(
+                    message.channel,
+                    '{}'.format(response)
+                    )
+
 
 hilarious_snark = [
     'Oh, I get it now I need to eat a pizza because I\'m having *a fuckin\' panic attack* ***I gotta stress eat.***',
