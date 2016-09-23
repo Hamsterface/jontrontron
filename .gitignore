@@ -1,4 +1,4 @@
 configs/config.json
 Thumbs.db
 *.db
-*.swp
+.*.sw*
