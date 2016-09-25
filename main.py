@@ -110,7 +110,7 @@ def on_message(message):
                     print('channel: {}, input :"{}", response: "{}"'.format(message.channel.name,s,str(response[0].encode('utf-8'))))
                     yield from client.send_message(message.channel, response[0])
                 else:
-                    if currentAvy != 'hamtron.png':
+                    if currentAvy != 'hamtron.png' and config['change_avy'] == "on":
                         with open('hamtron.png', 'rb') as img:
                             print('Changing avy to default')
                             yield from client.edit_profile(config['token'],avatar=img.read())
