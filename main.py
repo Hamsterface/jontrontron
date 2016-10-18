@@ -120,7 +120,6 @@ def on_message(message):
                     yield from client.send_message(message.channel, response)
                 break
 
-
 hilarious_snark = [
     'Oh, I get it now I need to eat a pizza because I\'m having *a fuckin\' panic attack* ***I gotta stress eat.***',
     'SURPRISE! IT\'S HELL ON EARTH.',
