@@ -91,6 +91,9 @@ def on_message(message):
             with open('configs/games.json') as z:
                 game_names = json.load(z)
 
+            with open('configs/config.json') as z:
+                config = json.load(z)
+
             if config['reload_response']: # If reload_response is blank, this won't trigger.
                 yield from client.send_message(message.channel, config['reload_response'])
 
