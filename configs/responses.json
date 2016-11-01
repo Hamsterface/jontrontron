@@ -96,5 +96,6 @@
     "^clowns$" : [["**Clowns!**", "clowns.jpg"]],
     "^(letsgoto)florida$" : ["**EUUACK.** *Cough, cough.* Oh, I think saying that just burned my mouth for some reason!"],
     "^(what(isitthat)?hasnoweightcanbeseenbythenakedeyeand|what(isit)?that)?(ifyouput(it)?inabarrelit)?willmakethebarrellighter$" : ["Halloween, it's gotta be candy- 3 Musketeers. Lightest candy bar. Fuck you."],
-    "^buttheothers$" : ["...Fuck it!\n*Tires squealing*"]
+    "^buttheothers$" : ["...Fuck it!\n*Tires squealing*"],
+    "^igiveup$" : ["Too little too late, talking leg"]
 }
