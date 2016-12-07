@@ -91,6 +91,9 @@ def on_message(message):
             with open('configs/games.json') as z:
                 game_names = json.load(z)
 
+            with open('configs/config.json') as z:
+                config = json.load(z)
+
             if config['reload_response']: # If reload_response is blank, this won't trigger.
                 yield from client.send_message(message.channel, config['reload_response'])
 
@@ -100,16 +103,17 @@ def on_message(message):
                 response = choice(shitposts[key])
                 global currentAvy
                 if isinstance(response, list):
-                    filename = response[1]
-                    if filename != currentAvy:
-                        with open(filename, 'rb') as img:
-                            print('Changing avy to {}'.format(filename))
-                            yield from client.edit_profile(config['token'],avatar=img.read())
-                        currentAvy = filename
+                    if config['change_avy'] == "on":
+                        filename = response[1]
+                        if filename != currentAvy:
+                            with open(filename, 'rb') as img:
+                                print('Changing avy to {}'.format(filename))
+                                yield from client.edit_profile(config['token'],avatar=img.read())
+                            currentAvy = filename
                     print('channel: {}, input :"{}", response: "{}"'.format(message.channel.name,s,str(response[0].encode('utf-8'))))
                     yield from client.send_message(message.channel, response[0])
                 else:
-                    if currentAvy != 'hamtron.png':
+                    if currentAvy != 'hamtron.png' and config['change_avy'] == "on":
                         with open('hamtron.png', 'rb') as img:
                             print('Changing avy to default')
                             yield from client.edit_profile(config['token'],avatar=img.read())

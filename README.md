@@ -15,15 +15,10 @@ Create a file with this name, filling in any necessary information:
 `configs/config.json`
 ```
 {
-    "email" : "email@address.com",
-    "password" : "This is your bot password.",
+    "token" : "This is your bot token.",
     "owner_id" : "Place your Discord ID here.",
-	"channels" : [
-		"place a list of channel ids as a whitelist to speak in here",
-		"they will look like:",
-		"12345674536628194"
-	],
-	"quit_command" : "a regular expression the owner can use to shut down the bot"
+	"quit_command" : "a regular expression the owner can use to shut down the bot",
+    "change_avy" : "Put on here if you want changing avys be on and anything else for it to be off"
 }
 ```
 
