@@ -1,14 +1,14 @@
-#Prerequisites
+# Prerequisites
 
 [Install Python 3.](https://www.python.org)
 
 [Install the Async branch of Discord.py.](https://github.com/Rapptz/discord.py/tree/async)
 
-#Download
+# Download
 
 [Download the latest version of JonTronTron and place it in a folder by itself.](https://github.com/Hamsterface/jontrontron/archive/master.zip)
 
-#Configuration
+# Configuration
 
 Create a file with this name, filling in any necessary information:
 
@@ -22,7 +22,7 @@ Create a file with this name, filling in any necessary information:
 }
 ```
 
-#Activation
+# Activation
 
 Run `main.py` in Python 3.
 
