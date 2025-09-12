@@ -15,10 +15,32 @@ Create a file with this name, filling in any necessary information:
 `configs/config.json`
 ```
 {
-    "token" : "This is your bot token.",
-    "owner_id" : "Place your Discord ID here.",
-	"quit_command" : "a regular expression the owner can use to shut down the bot",
-    "change_avy" : "Put on here if you want changing avys be on and anything else for it to be off"
+  "token" : "xxxxxx",
+  This is your bot's auth token
+  
+  "manager_ids" : [1234567890, 2345678901],
+  This is a list of user IDs you want to be able to shut down the bot
+  
+  "quit_command" : "^jttstop$",
+  This is the command to send to shut down jtt
+  
+  "reload_command" : "^jttreload$",
+  This is the command to send to reload the responses
+  
+  Commands use the same formatting as the responses; all non-alphanumeric characters are ignored
+  
+  "reload_response" : "Responses updated!",
+  Message to send when responses are reloaded. If you leave an empty string it will be silent.
+  
+  "change_avy" : "off",
+  Set to "on" to enable changing avatar. All other values are disabled.
+  
+  "channel_whitelist" : [
+    1234567890,
+    2345678901,
+    3456789012
+  ]
+  List of channel IDs to respond to messages in.
 }
 ```
 

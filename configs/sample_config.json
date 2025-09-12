@@ -1,8 +1,13 @@
 {
-    "token" : "",
-    "owner_id" : "",
-	"quit_command" : "^regexHere$",
-	"reload_command" : "^regexHere$",
-    "reload_response" : "OK.",
-    "change_avy" : "on"
+  "token" : "xxxxxx",
+  "manager_ids" : [1234567890],
+  "quit_command" : "^jttstop$",
+  "reload_command" : "^jttreload$",
+  "reload_response" : "Responses updated!",
+  "change_avy" : "off",
+  "channel_whitelist" : [
+    1234567890,
+    2345678901,
+    3456789012
+  ]
 }
